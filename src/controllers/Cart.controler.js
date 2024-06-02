@@ -3,7 +3,7 @@ import { Cart } from "../models/Cart.model.js";
 import { Product } from "../models/Product.models.js"; // Import the Product model
 
 import { User } from "../models/User.model.js"; // Import the User model
-import { ApiError } from "../utils/apiError.js";
+import { ApiError } from "../utils/ApiError.js";
 
 // Controller to add a product to the cart
 const addToCart = asyncHandler(async (req, res) => {

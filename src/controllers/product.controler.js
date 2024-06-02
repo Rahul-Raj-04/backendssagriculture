@@ -2,9 +2,9 @@ import { Category } from "../models/Category.model.js";
 import { Product } from "../models/Product.models.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 
-import { ApiError } from "../utils/apiError.js";
+import { ApiError } from "../utils/ApiError.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
-import { uploadOnCloudinary } from "../utils/cloudinary.js";
+import { uploadOnCloudinary } from "../utils/Cloudinary.js";
 
 const addProduct = async (req, res) => {
   try {

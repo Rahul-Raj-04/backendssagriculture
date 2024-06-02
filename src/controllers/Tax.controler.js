@@ -1,6 +1,6 @@
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { Tax } from "../models/Tax.model.js";
-import { ApiError } from "../utils/apiError.js";
+import { ApiError } from "../utils/ApiError.js";
 const createTax = asyncHandler(async (req, res) => {
   // Get tax details from frontend
   const { taxTitle, taxPercentage, status } = req.body;

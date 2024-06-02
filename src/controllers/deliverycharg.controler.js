@@ -1,5 +1,5 @@
 import { DeliveryCharge } from "../models/Deliverycharg.model.js";
-import { ApiError } from "../utils/apiError.js";
+import { ApiError } from "../utils/ApiError.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 
 // Controller function to create a new delivery charge
